@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "ResimGoruntule";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model qrcodescanner.Models.ResimGoruntuleViewModel
+<!DOCTYPE html> 
+<html>
+<head>
+    <style>
+        .gfg {
+            width: auto;
+            text-align: center;
+            padding: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+
+</head>
+<body>
+<div class="gfg">
+    <p id="my-image">
+        <img src="~/Content/@Model.Resim">
+    </p>
+</div> 
+</body>
+</html>
