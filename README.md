@@ -1,1 +1,1 @@
-qrcodescanner
+qrcodescanner // edit by bedirxanugur
