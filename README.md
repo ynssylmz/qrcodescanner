@@ -1,1 +1,1 @@
-qrcodescanner
+qrCodeScanner
